@@ -25,7 +25,7 @@ class DetailPresenterImpl @Inject internal constructor(@Named("title") private v
         image?.let { favourite.image = it }
         Observable.fromCallable { database.favouriteDao().insertFavourite(favourite) }.subscribeOn(Schedulers.io())
                 .subscribe({ _ -> bus.send(true) }
-                        , { error -> })
+                        , { _ -> })
     }
 
     private lateinit var view: DetailContract.View

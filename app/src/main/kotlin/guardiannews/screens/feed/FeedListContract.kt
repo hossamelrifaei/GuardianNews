@@ -14,6 +14,6 @@ interface FeedListContract : BaseContract {
 
     interface View : BaseContract.View {
         fun addFeed(feedList: List<Result>)
-        fun showFavorites(response: List<Favourite>)
+        fun showFavorites(favourites: List<Favourite>)
     }
 }

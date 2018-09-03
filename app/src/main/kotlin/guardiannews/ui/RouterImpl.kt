@@ -35,7 +35,7 @@ class RouterImpl @Inject internal constructor() : Router {
     }
 
     override fun pop(): Boolean {
-        return fragmentManager != null && fragmentManager.popBackStackImmediate()
+        return fragmentManager.popBackStackImmediate()
     }
 
 
