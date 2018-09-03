@@ -5,7 +5,6 @@ import android.arch.persistence.room.Insert
 import android.arch.persistence.room.OnConflictStrategy
 import android.arch.persistence.room.Query
 import guardiannews.model.Favourite
-import io.reactivex.Maybe
 import io.reactivex.Single
 
 @Dao

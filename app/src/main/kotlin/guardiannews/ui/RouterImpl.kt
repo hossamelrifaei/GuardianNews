@@ -3,7 +3,6 @@ package ui
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE
-import android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_OPEN
 import android.support.v4.view.ViewCompat
 import android.support.v7.app.AppCompatActivity
 import android.widget.ImageView

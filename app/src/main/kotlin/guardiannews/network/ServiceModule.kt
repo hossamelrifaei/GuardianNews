@@ -1,7 +1,6 @@
 package network
 
 import com.squareup.moshi.Moshi
-import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import dagger.Module
 import dagger.Provides
 import guardiannews.model.FeedResponse

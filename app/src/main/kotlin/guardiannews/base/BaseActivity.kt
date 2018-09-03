@@ -36,6 +36,7 @@ abstract class BaseActivity : AppCompatActivity(), HasSupportFragmentInjector {
             super.onBackPressed()
         }
     }
+
     override fun supportFragmentInjector(): AndroidInjector<Fragment>? {
         return fragmentDispatchingAndroidInjector
     }
